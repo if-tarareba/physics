@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  15 OCT 2023 23:34
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  16 OCT 2023 00:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/shant/Documents/physics/Lecture/lec_20231021.tex
-(c:/Users/shant/Documents/physics/Lecture/lec_20231021.tex
+**c:/Users/shant/Documents/physics/Lecture/test_20231021.tex
+(c:/Users/shant/Documents/physics/Lecture/test_20231021.tex
 pLaTeX2e <2020-10-01>+2 (based on LaTeX2e <2020-10-01> patch level 4)
 L3 programming layer <2021-02-18> (c:/texlive/2021/texmf-dist/tex/platex/jsclasses/jsarticle.cls
 Document Class: jsarticle 2020/10/09 jsclasses (okumura, texjporg)
@@ -265,8 +265,8 @@ File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count281
 \g__pdf_backend_link_int=\count282
 \g__pdf_backend_link_sf_int=\count283
-) (out/lec_20231021.aux)
-\openout1 = `lec_20231021.aux'.
+) (out/test_20231021.aux)
+\openout1 = `test_20231021.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
@@ -354,14 +354,14 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 [2] (../se_1H/106.tex
 File: ../graphs/se_1H_106.png Graphic file (type bmp)
 <../graphs/se_1H_106.png>
-Excluding 'comment' comment.) [3] [4] [5] [6] [7] (out/lec_20231021.aux) ) 
+Excluding 'comment' comment.) [3] [4] [5] [6] [7] (out/test_20231021.aux) ) 
 Here is how much of TeX's memory you used:
  4962 strings out of 479466
- 77339 string characters out of 5873882
- 382886 words of memory out of 5000000
+ 77349 string characters out of 5873882
+ 382887 words of memory out of 5000000
  22580 multiletter control sequences out of 15000+600000
  413608 words of font info for 79 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 69i,11n,77p,327b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,11n,77p,328b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/lec_20231021.dvi (8 pages, 7028 bytes).
+Output written on out/test_20231021.dvi (8 pages, 7028 bytes).
