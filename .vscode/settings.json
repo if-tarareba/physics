@@ -1,0 +1,99 @@
+{
+    // ---------- Language ----------
+
+    "[tex]": {
+        "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？にを",
+        // スニペット補完中にも補完を使えるようにする
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        // インデント幅を2にする
+        "editor.tabSize": 2
+    },
+
+    "[latex]": {
+        // スニペット補完中にも補完を使えるようにする
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？",
+        // インデント幅を2にする
+        "editor.tabSize": 2,
+        "editor.wordWrap": "bounded",
+        "editor.bracketPairColorization.enabled": true,
+        "editor.unicodeHighlight.invisibleCharacters": true,
+        "editor.unicodeHighlight.allowedCharacters": {
+          "，": true, "．": true,
+          "！": true, "？": true,
+          "［": true, "］": true,
+          "｛": true, "｝": true,
+          "＜": true, "＞": true,
+          "（": true, "）": true,
+          "〔": true, "〕": true,
+        },
+    },
+
+    "[bibtex]": {
+        // インデント幅を2にする
+        "editor.tabSize": 2
+    },
+
+
+    // ---------- LaTeX Workshop ----------
+
+    // 使用パッケージのコマンドや環境の補完を有効にする
+    "latex-workshop.intellisense.package.enabled": true,
+
+    // 生成ファイルを "out" ディレクトリに吐き出す
+    "latex-workshop.latex.outDir": "out",
+
+    // latex-workshop.latex.recipes: Recipe の定義
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk", "qpdf", "cleanFile"
+            ]
+        },
+    ],
+
+    // ビルドのレシピに使われるパーツ
+    "latex-workshop.latex.tools": [
+      {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+            "-silent",
+            "-outdir=%OUTDIR%",
+            "%DOC%"
+        ],
+      },
+      {
+        "name": "qpdf",
+        "command": "qpdf",
+        "args": [
+            "--linearize",
+            "--replace-input",
+            "out/%DOCFILE%.pdf",
+        ]
+      },
+      {
+        "name": "cleanFile",
+        "command": "..\\seiritz.bat", // クリーンアップ用のバッチファイル
+        "args": [
+            "%DOCFILE%"
+        ]
+      },
+    ],
+    // latex-workshop.latex.magic.args: マジックコメント付きの LaTeX ドキュメントをビルドする設定
+    "latex-workshop.latex.magic.args": [
+        "-f", "-gg", "-pv", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"
+    ],
+    "latex-workshop.view.pdf.viewer": "external",
+    // ビルド失敗時に一時ファイルのクリーンアップを行うかどうか 
+    // なんかうまくいかないのでバッチファイルを作成して実行しているため,autoCleanは行なわない,
+    "latex-workshop.latex.autoClean.run": "never",
+    // .tex ファイルの保存時に自動的にビルドを行うかどうか
+    "latex-workshop.latex.autoBuild.run": "never",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.fontFamily": "Myrica M",
+    "editor.fontSize": 18,
+}

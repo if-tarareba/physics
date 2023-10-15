@@ -1,0 +1,116 @@
+\documentclass[a4paper,11pt]{jsarticle} % ceostyを用いるための文書クラス
+
+% 冊子形式にするには表紙(ページ数に含まれない)で
+% 1ページ使っているので最後のページのページ番号が
+% 4n  ->透かしがしにくい(表紙と裏表紙の裏面が白紙)
+% 4n+1->一番微妙
+% 4n+2->表紙と白紙の裏表紙ができる---こうなるように調整
+% 4n+3->裏表紙も使う
+
+\usepackage{fancyhdr}	% ページスタイル
+
+%%スタイル
+% 数式やテキストの描画
+\usepackage{amsmath, amsfonts, amssymb, mathtools, mathrsfs, latexsym}	% ams関連は数式書くのに必須!!
+%\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\usepackage{nccmath, empheq}	% 結構ピンポイントなパッケージ
+
+% 画像
+%% 枠だけ表示(Cannot determine size of graphicと結構怒られる)
+%\usepackage[draft]{graphicx}
+%% 普通に表示させる(ただ重くなりやすい)
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{here}	% 絶対Hereって勝手に呼んでるやつ
+\usepackage{wrapfig}	% 回り込み(ceostyのymawarikomiもある)
+\usepackage{subcaption}	% minipageを使って図を並べるときの各画像のキャプションに必要
+
+% このファイルの肝.
+% usepackageの順番(ceoとの前後関係)を変えると途端にエラーを吐くので注意
+%\usepackage{ceo}
+% 以下のパッケージはceostyの煽りをくらったもの
+\usepackage{enumerate, comment}	% 順に文書モードでの段落環境, 複数行コメント
+
+\pagestyle{fancy}
+  \cfoot{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\vevenspace}{\vspace{\stretch{1}}}	
+\newcommand{\hruleline}{\par\noindent\hrulefill\par}
+\newcommand{\length}[1]{$\overline{\textup{#1}}$}
+\renewcommand{\eq}{$=$}
+\newcommand{\vreidai}{\vspace{\stretch{0.3}}}
+\newcommand{\nn}{$n$}
+\newcommand{\m}{$m$}
+\newcommand{\kmath}{$k$}
+\renewcommand{\O}{\textup{O}}
+\newcommand{\Pn}[2]{$\textup{#1}_{#2}$}
+\newcommand{\mathPn}[2]{\textup{#1}_{#2}}
+\renewcommand{\P}{\textup{P}}
+\newcommand{\Q}{\textup{Q}}
+\newcommand{\R}{\textup{R}}
+\newcommand{\A}{\textup{A}}
+\newcommand{\B}{\textup{B}}
+\newcommand{\C}{\textup{C}}
+\newcommand{\D}{\textup{D}}
+\newcommand{\numseq}[2]{$\{#1_{#2}\}$}
+\newcommand{\combi}[2]{{}_{#1}\mathrm{C}_{#2}}
+\newcommand{\xy}{$xy$}
+\newcommand{\yz}{$yz$}
+\newcommand{\xz}{$xz$}
+\newcommand{\zx}{$zx$}
+\newcommand{\xyz}{$xyz$}
+\newcommand{\x}{$x$}
+\newcommand{\y}{$y$}
+\newcommand{\z}{$z$}
+\newcommand{\g}{$g$}
+
+
+\newcounter{partNo}
+\newcommand{\qPart}{
+  \pagebreak
+  \stepcounter{partNo}
+  \noindent \textup{\Large 第\arabic{partNo}問} 
+  \par \vspace{0.5\baselineskip}
+}
+
+\newcommand{\calcPage}{
+  \pagebreak
+  \begin{center}
+    \textless\,計算用紙\,\textgreater
+  \end{center}
+  \pagebreak
+}
+
+\newcommand{\brankPage}{
+  \pagebreak \mbox{} \pagebreak
+}
+
+%%%%%%%%%% メイン %%%%%%%%%%%
+\begin{document}
+%本文
+\begin{titlepage}
+  \begin{center}
+    \vspace*{\stretch{1}}
+    {\Huge\gt テスト演習}\\ \vspace{\baselineskip}
+    \textup{\large 実施日：2023年10月21日}\\ \vspace{\stretch{1}}
+  \end{center}
+  \vfill
+  \hfill {最終更新日：\today}
+\end{titlepage}
+
+\qPart
+\input{../se_1H/102.tex}
+\calcPage
+
+\qPart
+\input{../se_1H/106.tex}
+\calcPage
+
+\brankPage
+
+\brankPage
+
+\brankPage
+
+\end{document}
