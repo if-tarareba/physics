@@ -1,0 +1,98 @@
+    /* reset ================================ */
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+    line-height: 1.7;
+    letter-spacing: 1px;
+  }
+  
+  ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    color: #2d3133;
+    font-size: 14px;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  
+  input {
+    background-color: transparent;
+    outline-width: 0;
+  }
+  
+  form input[type="submit"] {
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* 共通レイアウト ================================ */
+  body {
+    color: #2d3133;
+    margin: 0;
+    min-height: 1vh;
+  }
+  
+  .main {
+    position: absolute;
+    top: 64px;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    background-color: #f5f8fa;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    clear: both;
+  }
+  
+  /* ヘッダー ================================ */
+
+  
+  /* top ================================ */
+
+  
+  /* about ================================ */
+  .index-main {
+    padding: 180px 8% 0;
+    color: white;
+    background-color: whitesmoke;
+  }
+
+  .index-main h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .index-main h2 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  
+  .index-main p {
+    font-weight: 200;
+    font-size: 20px;
+  }
+  
+  .index-img {
+    width: 84%;
+  }
+  
+
+  /* フォーム================================ */
+
+  
+  /* フラッシュ ================================ */
