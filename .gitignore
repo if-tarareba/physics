@@ -6,6 +6,7 @@ index/out/For_check.*
 index/out/*.log
 index/*.BAT
 *.txt
+tmp_files
 
 # seiritz.code-workspace を無視
 *.code-workspace
