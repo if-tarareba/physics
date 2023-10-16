@@ -61,6 +61,7 @@
   }
 
   .index-main ul {
+    margin-top: 10px;
     list-style-position: inside;
     list-style-type: square;
   }
@@ -76,12 +77,19 @@
 
   .lecture {
     background-color: #e6f0f0;
-    margin: 2vh 4vh;
+    /*margin: 2vh 4vh;*/
     padding: 1vh 2vh;
   }
 
   .date {
     border-bottom-style: solid;
     border-bottom-width: thin;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2vh 2vh;
   }
   
