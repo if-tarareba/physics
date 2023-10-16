@@ -1,6 +1,7 @@
     /* reset ================================ */
 * {
     box-sizing: border-box;
+    color: #000;
   }
   
   html {
@@ -10,70 +11,47 @@
   }
   
   ul, li {
-    list-style-type: none;
     padding: 0;
     margin: 0;
   }
   
   a {
-    color: #2d3133;
     font-size: 14px;
   }
   
   h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-  }
-  
-  input {
-    background-color: transparent;
-    outline-width: 0;
-  }
-  
-  form input[type="submit"] {
-    border: none;
-    cursor: pointer;
+    font-family: serif;
   }
   
   /* 共通レイアウト ================================ */
   body {
     color: #2d3133;
     margin: 0;
-    min-height: 1vh;
-  }
-  
-  .main {
-    position: absolute;
-    top: 64px;
-    width: 100%;
-    height: auto;
     min-height: 100%;
-    background-color: #f5f8fa;
   }
-  
-  .container {
-    max-width: 600px;
-    margin: 60px auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    clear: both;
-  }
-  
+
   /* ヘッダー ================================ */
 
   
   /* top ================================ */
-
+  .top {
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+  }
   
   /* about ================================ */
   .index-main {
-    padding: 180px 8% 0;
-    color: white;
-    background-color: whitesmoke;
+    color: black;
+    background-color: white;
+    min-height: 100vh;
+    margin: 20px 0;
   }
 
   .index-main h1 {
+    font-size: 40px;
     text-align: center;
-    color: black;
+    margin-bottom: xx-large;
   }
   
   .index-main h2 {
@@ -81,18 +59,29 @@
     font-weight: 500;
     line-height: 1.4;
   }
+
+  .index-main ul {
+    list-style-position: inside;
+    list-style-type: square;
+  }
   
   .index-main p {
-    font-weight: 200;
+    font-weight: bold;
     font-size: 20px;
   }
-  
-  .index-img {
-    width: 84%;
+
+  .index-main li {
+    margin-left: 10mm;
+  }
+
+  .lecture {
+    background-color: #e6f0f0;
+    margin: 2vh 4vh;
+    padding: 1vh 2vh;
+  }
+
+  .date {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
   }
   
-
-  /* フォーム================================ */
-
-  
-  /* フラッシュ ================================ */
