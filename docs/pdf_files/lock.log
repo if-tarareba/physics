@@ -1,1 +1,0 @@
-qpdf --encrypt seiritz2024 seiritz2024 256 -- --replace-input *.pdf

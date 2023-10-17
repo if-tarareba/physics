@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  17 OCT 2023 06:56
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  17 OCT 2023 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -255,7 +255,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 ) (c:/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 Excluding comment 'comment')
-\c@partNo=\count279
+\c@numEq=\count279
 (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 \l__pdf_internal_box=\box73
@@ -268,24 +268,24 @@ File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 ) (out/20231021_Q2.aux)
 \openout1 = `20231021_Q2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 \Hy@linkcounter=\count284
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -312,16 +312,31 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 File: ../graphs/jumon_42.jpg Graphic file (type bmp)
 <../graphs/jumon_42.jpg>
-Excluding 'comment' comment.) [1
+Excluding 'comment' comment.) (../jumon/sec05/42_sol.tex Excluding 'comment' comment.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 10.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 10.
+[1
 
-] (out/20231021_Q2.aux) ) 
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 17.
+File: ../graphs/jumon_42_sol.png Graphic file (type bmp)
+<../graphs/jumon_42_sol.png>
+
+Overfull \hbox (13.50253pt too wide) in paragraph at lines 49--50
+[][] 
+ []
+
+[2]) [3] (out/20231021_Q2.aux) ) 
 Here is how much of TeX's memory you used:
- 4921 strings out of 479466
- 76728 string characters out of 5873882
- 384885 words of memory out of 5000000
- 22550 multiletter control sequences out of 15000+600000
- 410858 words of font info for 65 fonts, out of 8000000 for 9000
+ 4935 strings out of 479466
+ 76988 string characters out of 5873882
+ 394885 words of memory out of 5000000
+ 22557 multiletter control sequences out of 15000+600000
+ 411961 words of font info for 70 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 69i,11n,77p,326b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,14n,77p,326b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/20231021_Q2.dvi (1 page, 4296 bytes).
+Output written on out/20231021_Q2.dvi (3 pages, 12272 bytes).

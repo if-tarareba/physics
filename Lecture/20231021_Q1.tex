@@ -34,7 +34,7 @@
 \pagestyle{fancy}
   \lhead{2023年10月21日}
   \rhead{第1問}
-  \cfoot{}
+  \cfoot{\thepage}
 
 \newcommand{\vevenspace}{\vspace{\stretch{1}}}	
 \newcommand{\hruleline}{\par\noindent\hrulefill\par}
@@ -66,28 +66,16 @@
 \newcommand{\z}{$z$}
 \newcommand{\g}{$g$}
 
-
-\newcounter{partNo}
-\newcommand{\qPart}{
-  \pagebreak
-  \stepcounter{partNo}
-  \noindent \textup{\Large 第\arabic{partNo}問} 
-  \par \vspace{0.5\baselineskip}
+\newcounter{numEq}
+\newcommand{\assignNumEq}{%
+\stepcounter{numEq}
+\tag*{$\cdots\cdots$\ctext{\the\value{numEq}}}
 }
-
-\newcommand{\calcPage}{
-  \pagebreak
-  \begin{center}
-    \textless\,計算用紙\,\textgreater
-  \end{center}
-  \pagebreak
-}
-
-\newcommand{\brankPage}{
-  \pagebreak \mbox{} \pagebreak
-}
+\newcommand{\ctext}[1]{\raise0.2ex\hbox{\textcircled{\scriptsize{#1}}}}
 
 %%%%%%%%%% メイン %%%%%%%%%%%
 \begin{document}
 \input{../se_1H/102.tex}
+\hruleline
+\input{../se_1H/102_sol.tex}
 \end{document}
