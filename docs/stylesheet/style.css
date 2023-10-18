@@ -27,18 +27,18 @@
   
   /* 共通レイアウト ================================ */
   body {
-    padding-top: 80px;
+    padding-top: 40px;
     color: #2d3133;
     margin: 0;
-    min-height: 100%;
+    min-height: 200vh;
   }
 
   /* ヘッダー ================================ */
 
   header {
     width: 100%;
-    height: 90px;
-    padding: 10px 50px;
+    height: 50px;
+    padding: 0 50px;
     box-sizing: border-box;
     position: fixed;
     top: 0;
@@ -46,26 +46,43 @@
     background: snow;
     border-bottom-width: thin;
     border-bottom-style: solid;
+    display: flex;
+    justify-content: space-between;
   }
 
+
   header h1 {
-    text-align: right;
     align-items: center;
   }
 
   header a {
-    font-weight: lighter;
-    font-size: larger;
+    text-decoration: none;
+    font-size: large;
+    font-weight: normal;
     padding-right: 5vw;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   
+  .contents {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+
+  .contents li{
+    padding: 0px 10px;
+  }
+
+  .contents a {
+    font-family: 'Noto Serif JP', serif;
+  }
+
   /* index ================================ */
   .index-main {
     color: black;
     background-color: white;
-    min-height: 100vh;
-    margin: 20px 0;
+    margin: 10px 0;
     font-family: 'Noto Serif JP', serif;
   }
 
@@ -73,18 +90,6 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: xx-large;
-  }
-  
-  .index-main h2 {
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 1.4;
-  }
-
-  .index-main ul {
-    margin-top: 10px;
-    list-style-position: inside;
-    list-style-type: square;
   }
   
   .index-main p {
@@ -96,10 +101,43 @@
     margin-left: 10mm;
   }
 
+  .content-title {
+    border-top-style: solid;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  .content-title h3 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
   .lecture {
     background-color: #e6f0f0;
     /*margin: 2vh 4vh;*/
     padding: 1vh 2vh;
+  }
+
+  .q-all {
+    margin-top: 10px;
+    list-style-position: inside;
+    list-style-type: square;
+  }
+
+  .q-indi {
+    margin-top: 0px;
+    list-style-position: inside;
+    list-style-type: disc;
+  }
+
+  .q-indi li {
+    margin-left: 15mm;
   }
 
   .date {
@@ -111,7 +149,7 @@
     display: grid;
     gap: 1vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 2vh 2vw;
+    margin: 2vh 3vw;
   }
 
 
