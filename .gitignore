@@ -1,15 +1,8 @@
 # .giattributesとFor_check.tex を無視
 .gitattributes
 For_check.tex 
-index/For_check.tex 
-index/out/For_check.*
-index/out/*.log
-index/*.BAT
+Lecture/For_check.tex 
+Lecture/out/For_check.*
+Lecture/out/*.log
 *.txt
 tmp_files
-
-# seiritz.code-workspace を無視
-*.code-workspace
-
-# out ディレクトリ以下すべて無視
-/out/*

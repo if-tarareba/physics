@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"latex-workshop.intellisense.package.enabled": true,
+		"latex-workshop.view.pdf.viewer": "external",
+		"editor.fontFamily": "Source Han Code JP",
+		"editor.fontSize": 12
+	}
+}

@@ -57,9 +57,10 @@
 
   header a {
     text-decoration: none;
+    width: auto;
     font-size: large;
     font-weight: normal;
-    padding-right: 5vw;
+    margin-right: 5vw;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   
