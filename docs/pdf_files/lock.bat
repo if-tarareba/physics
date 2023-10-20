@@ -5,7 +5,7 @@ SET targetDir=%1
 SET targetExt=pdf 
 
 FOR %%F IN (%targetDir%\*.%targetExt%) DO (
-    qpdf --encrypt seiritz2024 seiritz2024 256 -- --replace-input %%F
+    qpdf --encrypt nishiuchisatoshi nishiuchisatoshi 256 -- --replace-input %%F
     rem 逆にパスワードを解除するのは,
-    rem qpdf --decrypt --password=seiritz2024 --replace-input (ファイル) 
+    rem qpdf --decrypt --password="パスワード" --replace-input (ファイル) 
 )

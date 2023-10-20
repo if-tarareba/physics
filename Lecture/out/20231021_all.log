@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  19 OCT 2023 04:06
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  20 OCT 2023 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -46,6 +46,9 @@ LaTeX Info: Redefining \LaTeX on input line 135.
 LaTeX Info: Redefining \LaTeXe on input line 188.
 )
 \heisei=\count186
+) (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./seiritz.sty
 Package: seiritz 2023/10/19 v1.0 my original style for lecures at seiritz
 (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -81,7 +84,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count192
 \c@MaxMatrixCols=\count193
-\dotsspace@=\muskip16
+\dotsspace@=\muskip17
 \c@parentequation=\count194
 \dspbrk@lvl=\count195
 \tag@help=\toks17
@@ -271,46 +274,46 @@ File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 ) (out/20231021_all.aux)
 \openout1 = `20231021_all.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 \Hy@linkcounter=\count285
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 12.
+(Font)              scaled to size 23.90964pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 12.
+(Font)              scaled to size 23.90964pt on input line 13.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 12.
+(Font)              scaled to size 23.90964pt on input line 13.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 12.
+(Font)              scaled to size 23.90964pt on input line 13.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 14.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 13.
+(Font)              scaled to size 11.53198pt on input line 14.
 [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 19.
+(Font)              scaled to size 13.83836pt on input line 20.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 19.
+(Font)              scaled to size 13.83836pt on input line 20.
 (../se_1H/102.tex
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 5.
@@ -340,31 +343,38 @@ File: ../graphs/se_1H_102.png Graphic file (type bmp)
 <../graphs/se_1H_102.png>
 Excluding 'comment' comment.)
 LaTeX Font Info:    Font shape `JT1/mc/m/sl' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 21.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/m/sl' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 21.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
 [1]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 21.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 22.
 (c:/texlive/2021/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 21.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
 [2] (../jumon/sec05/42.tex
 File: ../graphs/jumon_42.jpg Graphic file (type bmp)
 <../graphs/jumon_42.jpg>
-Excluding 'comment' comment.) [3] [4] [5] [6] [7] (out/20231021_all.aux) ) 
+Excluding 'comment' comment.) [3] [4] [5] [6]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 32.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 32.
+File: ../graphs/qrcode.png Graphic file (type bmp)
+<../graphs/qrcode.png>
+[7] (out/20231021_all.aux) ) 
 Here is how much of TeX's memory you used:
- 4989 strings out of 479466
- 77745 string characters out of 5873882
- 384127 words of memory out of 5000000
- 22602 multiletter control sequences out of 15000+600000
- 413608 words of font info for 79 fonts, out of 8000000 for 9000
+ 5071 strings out of 479466
+ 78765 string characters out of 5873882
+ 385214 words of memory out of 5000000
+ 22678 multiletter control sequences out of 15000+600000
+ 414057 words of font info for 82 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  84i,11n,91p,386b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/20231021_all.dvi (8 pages, 8360 bytes).
+Output written on out/20231021_all.dvi (8 pages, 9032 bytes).
