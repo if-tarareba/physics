@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  20 OCT 2023 13:16
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  28 OCT 2023 23:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,21 +319,23 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 19.
 File: ../graphs/se_1H_102.png Graphic file (type bmp)
 <../graphs/se_1H_102.png>
-Excluding 'comment' comment.) (../se_1H/102_sol.tex Excluding 'comment' comment.
+Excluding 'comment' comment.) [1
+
+] (../se_1H/102_sol.tex Excluding 'comment' comment.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 10.
-[1
+[2
 
-] [2]) [3] (out/20231021_Q1.aux) ) 
+]) [3] (out/20231021_Q1.aux) ) 
 Here is how much of TeX's memory you used:
- 4950 strings out of 479466
- 77122 string characters out of 5873882
- 396113 words of memory out of 5000000
- 22571 multiletter control sequences out of 15000+600000
+ 4951 strings out of 479466
+ 77126 string characters out of 5873882
+ 394122 words of memory out of 5000000
+ 22572 multiletter control sequences out of 15000+600000
  412150 words of font info for 71 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  84i,13n,91p,385b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/20231021_Q1.dvi (3 pages, 9848 bytes).
+Output written on out/20231021_Q1.dvi (3 pages, 9828 bytes).

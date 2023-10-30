@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  20 OCT 2023 13:42
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.3)  28 OCT 2023 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -315,14 +315,13 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 File: ../graphs/jumon_42.jpg Graphic file (type bmp)
 <../graphs/jumon_42.jpg>
-Excluding 'comment' comment.) (../jumon/sec05/42_sol.tex Excluding 'comment' comment.
+Excluding 'comment' comment.) [1
+
+] (../jumon/sec05/42_sol.tex Excluding 'comment' comment.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 10.
-[1
-
-]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 17.
 File: ../graphs/jumon_42_sol.png Graphic file (type bmp)
@@ -332,14 +331,16 @@ Overfull \hbox (13.50253pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
-[2]) [3] (out/20231021_Q2.aux) ) 
+[2
+
+]) [3] (out/20231021_Q2.aux) ) 
 Here is how much of TeX's memory you used:
- 4959 strings out of 479466
- 77341 string characters out of 5873882
- 394114 words of memory out of 5000000
- 22578 multiletter control sequences out of 15000+600000
+ 4960 strings out of 479466
+ 77345 string characters out of 5873882
+ 394123 words of memory out of 5000000
+ 22579 multiletter control sequences out of 15000+600000
  411961 words of font info for 70 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  84i,14n,91p,385b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/20231021_Q2.dvi (3 pages, 12272 bytes).
+Output written on out/20231021_Q2.dvi (3 pages, 12252 bytes).
