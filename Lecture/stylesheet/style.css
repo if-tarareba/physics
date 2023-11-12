@@ -168,7 +168,28 @@
     grid-template-columns: 1fr 1fr;
     margin: 2vh 3vw;
   }
+
+  .univ p{
+    text-align: center;
+  }
+
+  .exam-index ul{
+    list-style-type: none;
+  }
+
+  .faculty {
+    list-style-type: none;
+    margin-left: 1vh;
+  }
   
+  .subject {
+    margin-left: 2vh;
+  }
+
+  .subject a{
+    padding-left: 1vh;
+  }
+
   @media (max-width: 1000px) {
     .grid {
       grid-template-columns: 1fr;

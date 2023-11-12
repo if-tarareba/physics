@@ -1,0 +1,96 @@
+%!TEX root = *.tex
+%%%%%%%%%%%%%%%%%%
+% メモ
+\begin{comment}
+
+\end{comment}
+% カウンタのリセット
+\setcounter{eqNo}{0}
+\setcounter{figure}{0}
+% 解答
+\noindent {\large【解答】\par}
+2種類の経路$\text{S}_0\to\text{S}_1\to P$，$\text{S}_0\to\text{S}_2\to P$の長さの差は，
+$\text{S}_1P$と$\text{S}_2P$の差に一致する．
+
+\begin{align*}
+  \text{S}_1P &= \sqrt{L^2+(2d+x)^2} = L\sqrt{1+\left(\frac{2d+x}{L}\right)^2}\\
+  \text{S}_2P &= \sqrt{L^2+(2d-x)^2} = L\sqrt{1+\left(\frac{2d-x}{L}\right)^2}
+\end{align*}
+ここで，$2d+x\ll L$より与えられた近似式から
+\begin{align*}
+  \text{S}_1P-\text{S}_2P &\fallingdotseq \frac{4d}{L}x
+\end{align*}
+となるので，
+\begin{empheq}[left=\empheqlbrace]{alignat*=4}
+  明線条件 &\,:\,& \frac{4d}{L}x &= m\lambda &\quad& (m=0,\,\pm 1,\,\pm 2,\,\,\dots)  \\
+  暗線条件 &\,:\,& \frac{4d}{L}x &= \left(m+\frac{1}{2}\right)\lambda &\quad& (m=0,\,\pm 1,\,\pm 2,\,\dots)
+\end{empheq}
+
+\noindent （2）\,
+同じ$m$に対して，明線と暗線の位置はそれぞれ$x,\,x+a$と書き表せるので，
+\begin{align*}
+  &\begin{dcases}
+    \frac{4d}{L}x = m\lambda \\
+    \frac{4d}{L}(x+a) = (m+\frac{1}{2})\lambda
+  \end{dcases} \\
+  &\frac{4d}{L}a = \frac{\lambda}{2} \\
+  &\therefore a = \frac{L\lambda}{8d}
+\end{align*}
+
+\noindent （3）\,
+$\text{S}_0\text{S}_1=\sqrt{l^2+d^2}$，
+$\text{S}_0\text{S}_2=\sqrt{l^2+3d^2}$となるので，$\frac{9d^2}{l^2}\ll 1$より
+\begin{align*}
+  \text{S}_0\text{S}_1-\text{S}_0\text{S}_2 &= \sqrt{l^2+d^2} - \sqrt{l^2+3d^2}\\
+  &\fallingdotseq l\left(1+\frac{1}{2}\frac{9d^2}{l^2}\right) - l\left(1+\frac{1}{2}\frac{d^2}{l^2}\right) \\
+  &= \frac{4d^2}{l}
+\end{align*}
+となり，$\text{S}_0\to\text{S}_1\to P$，$\text{S}_0\to\text{S}_2\to P$の経路差は
+\begin{align*}
+  (\text{S}_0\text{S}_1+\text{S}_1P)-(\text{S}_0\text{S}_2+\text{S}_2P) &\fallingdotseq \frac{4d}{L}x-\frac{4d^2}{l}
+\end{align*}
+よって，明線条件は
+\begin{align*}
+  \frac{4d}{L}x-\frac{4d^2}{l} = m\lambda \quad (m=0,\,\pm 1,\,\pm 2,\,\,\dots)
+\end{align*}
+以上より同じ$m$に対する明線の位置\x を考えると，明線の変位$\Delta x$は
+\begin{align*}
+  \frac{4d}{L}(x+\Delta x) - \frac{4d^2}{l} &= \frac{4d}{L}x \\
+  \frac{4d}{L}\Delta x &= \frac{4d^2}{l} \\
+  \Delta x &= \frac{Ld}{l}
+\end{align*}
+であり，$\Delta x$は正なので移動方向は右で，その距離が$\dfrac{Ld}{l}$である．
+
+\noindent （4）\,
+（3）と同様に暗線も$\Delta x$だけ移動する．
+よって，明線と暗線の間隔は変わらないので，
+$b=a=\frac{L\lambda}{8d}$．
+
+\noindent （5）\,
+屈折率\nn 中では光路長は経路長の\nn 倍となるので，
+\begin{align*}
+  \text{S}_0\to\text{S}_1\to P&: n\text{S}_0\text{S}_1+n\text{S}_1P \fallingdotseq nl\left(1+\frac{d^2}{2l^2}\right) + nL \left(1+\frac{1}{2}\frac{(2d+x)^2}{L^2}\right) \\
+  \text{S}_0\to\text{S}_2\to P&: \text{S}_0\text{S}_2+n\text{S}_2P \fallingdotseq l\left(1+\frac{9d^2}{2l^2}\right) + nL \left(1+\frac{1}{2}\frac{(2d-x)^2}{L^2}\right)
+\end{align*}
+
+\noindent （6）\,
+$x=0$としたときの光路長の差が0となるので，
+\begin{align*}
+  nl\left(1+\frac{d^2}{2l^2}\right) + nL \left(1+\frac{1}{2}\frac{4d^2}{L^2}\right) &= l\left(1+\frac{9d^2}{2l^2}\right) + nL \left(1+\frac{1}{2}\frac{4d^2}{L^2}\right)\\
+  n\frac{2l^2+d^2}{2l} &= \frac{2l^2+9d^2}{2l} \\
+  \therefore n &= \frac{2l^2+9d^2}{2l^2+d^2}
+\end{align*}
+
+\noindent （7）\,
+（3），（4）より明線と暗線の間隔はついたてAとついたてBの間の光路長の差によらない．
+よって，$\text{S}_1P$と$\text{S}_2P$の間の光路長の差についてのみ考えればよく，それは
+\begin{align*}
+  n\text{S}_1\P-n\text{S}_2\P = \frac{4nd}{L}x
+\end{align*}
+である．
+（2），（4）と同様にして明線と暗線の間隔$c$は，
+\begin{align*}
+  \frac{4nd}{L}(x+c)-\frac{4nd}{L}x &= \frac{\lambda}{2} \\
+  c &= \frac{L\lambda}{8nd} = \frac{L\lambda (2l^2+d^2)}{8d(2l^2+9d^2)}
+\end{align*}
+%%%%%%%%%%%%%%%%%%%%

@@ -153,6 +153,32 @@
     margin: 2vh 3vw;
   }
 
+  .univ p{
+    text-align: center;
+  }
+
+
+  .univ {
+    background-color: #dcc8dc;
+  }
+
+  .faculty {
+    list-style-type: none;
+    margin-left: 1vh;
+  }
+  
+  .subject {
+    list-style-type: " - ";
+    margin-left: 2vh;
+  }
+
+  .subject a{
+    padding-left: 0.5vh;
+  }
+
+  footer {
+    min-height: 3vh;
+  }
 
 
 /* タブレット(横)サイズ */
@@ -163,7 +189,7 @@
     }
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1050px) {
     .grid {
       grid-template-columns: 1fr 1fr 1fr ;
     }
@@ -175,7 +201,7 @@
     }
   }
 
-  @media (max-width: 400px){  
+  @media (max-width: 440px){  
     .grid {
       display: grid;
       gap: 1vh;
