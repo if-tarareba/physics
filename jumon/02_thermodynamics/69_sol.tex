@@ -1,0 +1,52 @@
+%!TEX root = *.tex
+%%%%%%%%%%%%%%%%%%
+% メモ
+\setlength{\baselineskip}{18pt}
+\begin{comment}
+
+\end{comment}
+% カウンタのリセット
+\setcounter{figure}{0}
+% 解答
+\qSentence{【解答】}
+
+\hang{（1）}
+内部エネルギーの変化を定積モル比熱を用いて表すと，
+\begin{align*}
+  &\varDelta U_{\A\B} = \underline{nC_v(T_\B-T_\A)},
+  &\varDelta U_{\B\C} = \underline{nC_v(T_\C-T_\B)}, \\
+  &\varDelta U_{\C\D} = \underline{nC_v(T_\D-T_\C)},
+  &\varDelta U_{\D\A} = \underline{nC_v(T_\A-T_\D)}．
+\end{align*}
+
+\hang{（2）}
+A$\rightarrow$ B，C$\rightarrow$ Dは断熱変化なので，$Q_{\A\B}=\underline{0},\,Q_{\C\D}=\underline{0}$．
+B$\rightarrow$ Cは定圧変化なので，\mbox{$Q_{\B\C} = \underline{nC_p(T_\C-T_\B)}$}．
+D$\rightarrow$ Aは定積変化なので，\mbox{$Q_{\D\A} = \underline{nC_v(T_\A-T_\D)}$}．
+
+\hang{（3）}
+D$\rightarrow$Aは定積変化ゆえ，$W_{\D\A}=\underline{0}$．
+また，熱力学第一法則より
+\begin{align*}
+  W_{\A\B} &= Q_{\A\B} - \varDelta U_{\A\B} = \underline{-nC_v(T_\B-T_\A)}, \\
+  W_{\B\C} &= Q_{\B\C} - \varDelta U_{\B\C} = \underline{n(C_p-C_v)(T_\C-T_\B)}, \\
+  W_{\C\D} &= Q_{\C\D} - \varDelta U_{\C\D} = \underline{-nC_v(T_\D-T_\C)}．
+\end{align*}
+
+\hang{（4）}
+A$\rightarrow$ B，C$\rightarrow$ Dが断熱変化なので$T_\D>T_\A,\,T_\C>T_\B$である．
+この熱サイクルにおいて吸熱する過程，すなわち（2）の解$Q$が正の値をとるのはB$\rightarrow$ Cのみである．
+一方で，気体がする正味の仕事$W$は
+\begin{align*}
+  W &= W_{\A\B} + W_{\B\C} + W_{\C\D} + W_{\D\A} \\
+  &= Q_{\B\C} - (\varDelta U_{\A\B} + \varDelta U_{\B\C} + \varDelta U_{\C\D}) \qquad (\because \text{熱力学第一法則})\\
+  &= Q_{\B\C} - nC_v(T_\D-T_\A) \\
+\end{align*}
+以上より熱効率$e$は，$\gamma =\tfrac{C_p}{C_v}$を用いて
+\begin{align*}
+  e &= \dfrac{W}{Q_{\B\C}} = \dfrac{Q_{\B\C} - nC_v(T_\D-T_\A)}{Q_{\B\C}} \\
+  &= 1- \dfrac{C_v}{C_p}\cdotp\dfrac{T_\D-T_\A}{T_\C-T_\B} \\
+  &= \underline{1-\dfrac{T_\D-T_\A}{\gamma (T_\C-T_\B)}}
+\end{align*}
+
+%%%%%%%%%%%%%%%%%%
