@@ -1,0 +1,88 @@
+%!TEX root = *.tex
+%%%%%%%%%%%%%%%%%%
+% メモ
+\begin{comment}
+
+\end{comment}
+% カウンタのリセット
+% 解答
+\qSentence{【解答】}
+\hang{（1）}
+ボイルの法則より
+\begin{align*}
+  p_x (V_0-Sx) &= p_0V_0 \\
+  p_x &= \dfrac{V_0}{V_0-Sx}\,p_0 = \left(1-\dfrac{Sx}{V_0}\right)^{-1}p_0
+  \intertext{\quad $|x|\ll V_0/S$より$\tfrac{S|x|}{V_0}\ll 1$であるので与えられた近似式より}
+  p_x &= \left(1+\dfrac{Sx}{V_0}\right)p_0
+\end{align*}
+
+\hang{（2）}
+時刻$t$におけるピストンの速度を$v$，加速度を$\alpha$とする．
+運動方程式より
+\begin{align*}
+  m\alpha &= p_0S-p_xS \\ \alpha&= -\dfrac{p_0S^2}{mV_0}x 
+\end{align*}
+よって，角振動数$\omega =\sqrt{\tfrac{p_0S^2}{mV_0}}$の単振動をする．
+周期$T$は，
+\begin{align*}
+  T &= \frac{2\pi}{\omega} = 2\pi \sqrt{\dfrac{mV_0}{p_0S^2}}
+\end{align*}
+である．
+また，初期条件$t=0$で，$x=0,\,v=0$であるので，
+\begin{align*}
+  x(t) = a\cos\omega t = a\cos\sqrt{\dfrac{p_0S^2}{mV_0}}t
+\end{align*}
+
+\hang{（3）}
+ピストンの内部の気体分子の物質量を$n$，$x=0$のときの気体の温度を$T_0$とする．
+そこから微小だけ変位した位置$x$にピストンがあるときの圧力，体積および温度の変化量をそれぞれ$\Delta p,\,\Delta V,\,\Delta T$とすると，$\Delta V=-Sx$である．
+このとき気体の状態方程式より
+\begin{align*}
+  p_0V_0 &= nRT_0 \tag*{\ctext{1}}\\
+  (p_0+\Delta p)(V_0+\Delta V) &= nR(T_0+\Delta T) \tag*{\ctext{2}}
+\end{align*}
+\ctext{2}において2次の微小量は無視できて
+\begin{align*}
+  p_0V_0+\Delta pV_0 +p_0\Delta V &= nRT_0+nR\Delta T \\
+  \intertext{\qquad\ctext{1}を用いて}
+  \Delta pV_0 +p_0\Delta V &= nR\Delta T \\
+  \intertext{\qquad $p_0V_0(=nRT_0)$でさらに割って}
+  \dfrac{\Delta p}{p_0} +\dfrac{\Delta V}{V_0} &= \dfrac{\Delta T}{T_0} \tag*{\ctext{3}}\\
+\end{align*}
+一方で熱力学第一法則より
+\begin{align*}
+  &0 = \dfrac{nR\Delta T}{\gamma -1}+(p_0+\Delta p)\Delta V \\
+  &\dfrac{nR\Delta T}{\gamma -1} = -p_0\Delta V\\
+\end{align*}
+両辺を$p_0V_0(=nRT_0)$で割って，
+\begin{align*}
+  \dfrac{1}{\gamma -1}\dfrac{\Delta T}{T_0} &= -\dfrac{\Delta V}{V_0} \\
+  \dfrac{\Delta T}{T_0} &= (1-\gamma) \dfrac{\Delta V}{V_0} \tag*{\ctext{4}}
+\end{align*}
+\ctext{3}と\ctext{4}より
+\begin{align*}
+  \dfrac{\Delta p}{p_0} &= -\gamma \dfrac{\Delta V}{V_0} = -\dfrac{\gamma S}{V_0}x\\
+  p_0 &= -\dfrac{\gamma p_0S}{V_0}x
+\end{align*}
+
+ここで，運動方程式は
+\begin{align*}
+  m\alpha &= p_0S - (p_0+\Delta p)S \\
+  &= -\Delta pS\\
+  \alpha &= -\dfrac{\gamma p_0S^2}{mV_0}x
+\end{align*}
+よってピストンは角振動数$\omega^\prime = \sqrt{\gamma\tfrac{p_0S^2}{mV_0}}=\sqrt{\gamma}\, \omega$で単振動を行う．
+したがって，周期$T^\prime$は
+\begin{align*}
+  T^\prime = \frac{2\pi}{\omega^\prime} = \frac{2\pi}{\sqrt{\gamma} \omega} = \frac{1}{\sqrt{\gamma}}T
+\end{align*}
+となり，周期は$\tfrac{1}{\sqrt{\gamma}}$倍になる．
+
+
+% メモ
+\begin{comment}
+
+\end{comment}
+
+
+%%%%%%%%%%%%%%%%%%
