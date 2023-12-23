@@ -1,28 +1,17 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{seiritz}[2023/10/19 v1.0 my original style for lecures at seiritz]
 
-%まず使用するパッケージ
-\usepackage{amsmath, amsfonts, amssymb, mathtools, mathrsfs, latexsym}
-\usepackage{nccmath, empheq}
-
-%\usepackage[draft]{graphicx}
-\usepackage[dvipdfmx]{graphicx}
-\usepackage[dvipdfmx]{color}
-\usepackage{here, wrapfig, subcaption}
-\usepackage{enumerate, comment, fancyhdr}
 
 %カウンタ
 \newcounter{partNo}
 \newcounter{eqNo}
 
 %コマンド
-%mathtoolsを用いたコマンド定義
-\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 %ユーザー定義
 \newcommand{\vevenspace}{\vspace{\stretch{1}}}
 \newcommand{\hruleline}{\par\noindent\hrulefill\par}
 \newcommand{\length}[1]{$\overline{\textup{#1}}$}
-\renewcommand{\eq}{$=$}
+
 \newcommand{\nn}{$n$}
 \newcommand{\m}{$m$}
 \newcommand{\kmath}{$k$}
