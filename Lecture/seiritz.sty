@@ -69,7 +69,11 @@
 \tag*{$\cdots\cdots$\ctext{\the\value{eqNo}}}
 }
 
-\newcommand{\BrankNo}[1]{\,\fbox{\,{\bfseries #1}\,}\,}
+\newcommand{\BrankNo}[1]{\,\framebox[4zw]{#1}\,}
+
+\newcommand{\BrankNok}[1]{(\makebox[3zw]{#1})}
+
+\newcommand{\BrankNob}[1]{\,\fbox{\,{\bfseries #1}}\,}
 
 \newcommand{\hang}[1]{%
   \noindent%
@@ -79,8 +83,11 @@
 
 \newcommand{\sethang}[1]{%
   \noindent%
-  \phantom{#1\,}%
+  \phantom{#1\,}\,%
   \settowidth{\hangindent}{#1}%
 }%
+
+%\renewcommand{\arraystretch}{2}
+
 
 \endinput 
